@@ -1,9 +1,10 @@
 import React from 'react'
+import { Icon } from '../icon/Icon';
 
 const Logo = () => {
   return (
 		<a href=''>
-			<img src='' alt='' />
+			<Icon iconId={'react'} />
 		</a>
 	)
 }
