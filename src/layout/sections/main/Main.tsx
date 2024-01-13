@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import mainPhoto from "../../assets/Image/photo.webp"
-import { FlexWrapper } from "../../components/FlexWrapper"
+import mainPhoto from "../../../assets/Image/photo.webp"
+import { FlexWrapper } from "../../../components/FlexWrapper"
 
 export function Main () {
   return (
