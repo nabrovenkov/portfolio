@@ -1,17 +1,21 @@
 import styled from "styled-components";
 import { Button } from "../../../components/Button";
 import { SectionTitle } from "../../../components/SectionTitle";
+import { Container } from "../../../components/Container";
+import { FlexWrapper } from "../../../components/FlexWrapper";
 
 export function Slogan () {
   return (
 		<StyledSlogan>
-			<SectionTitle>I Am Available For Freelance</SectionTitle>
-      <Button>Hire me</Button>
+      <Container>
+        <FlexWrapper direction="column" align="center">
+          <SectionTitle>I Am Available For Freelance</SectionTitle>
+          <Button>Hire me</Button>
+        </FlexWrapper>
+      </Container>
 		</StyledSlogan>
 	)
 }
 
 const StyledSlogan = styled.section`
-  min-height: 50vh;
-  background-color: #252527;
 `

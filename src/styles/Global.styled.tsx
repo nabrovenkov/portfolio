@@ -28,6 +28,7 @@ export const GlobalStyled = createGlobalStyle`
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   ul {
