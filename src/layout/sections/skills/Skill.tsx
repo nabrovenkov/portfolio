@@ -39,7 +39,6 @@ export const IconWrapper = styled.div`
 		width: 80px;
 		height: 80px;
 		transform: rotate(45deg) translate(-50%, -50%);
-		/* flex-shrink: 0; */
 
     top: 50%;
     left: 50%;
